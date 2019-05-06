@@ -1,2 +1,15 @@
-# node-cli
-内置常见的命令行场景
+# node-fuck
+
+search on npm..
+
+> node-cli, kit, tool, fork .... // exists
+
+oh shit!
+
+> node-shit // exists
+
+fuck!!
+
+> node-fuck // nice done.
+
+👍
