@@ -4,14 +4,14 @@ const Command = require('common-bin');
 const exec = require('../common/execCmd');
 
 const templateNameMap = {
-  'cli': 'https://github.com/zhou-yg/node-cli.git',
+  'cli': 'https://github.com/zhou-yg/node-fuck.git',
 };
 
 class Template extends Command {
   constructor (rawArgv) {
     super(rawArgv);
 
-    this.usage = ('Usage: node-cli temp <templateNameOrLink> [<dir>]');
+    this.usage = ('Usage: node-fuck temp <templateNameOrLink> [<dir>]');
 
     this.yargs.options({
       depth: {
