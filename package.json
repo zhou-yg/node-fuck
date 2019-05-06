@@ -1,6 +1,6 @@
 {
   "name": "node-cli",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "内置常见的命令行场景",
   "main": "index.js",
   "scripts": {},
