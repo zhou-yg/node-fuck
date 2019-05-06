@@ -27,11 +27,15 @@ class Template extends Command {
 
     console.log(argv, cwd);
 
-    yield exec(`git clone ${k} ${dir}`, {
-      cwd,
-    });
+    if (k && /^http/.test(k)) {
+      yield exec(`git clone ${k} ${dir}`, {
+        cwd,
+      });
 
-    console.log('clone done')
+      console.log('clone done')
+    } else {
+      throw new Error('tempName must valid');
+    }
   }
 
   get description() {
