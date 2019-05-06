@@ -1,0 +1,15 @@
+.rpt2_cache/
+coverage/
+cube-pages/dist/
+dist/
+/lib/
+node_modules/
+
+.umi/
+*.log
+*.log.*
+
+
+./src/index.js
+
+.cache/
